@@ -1,0 +1,79 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\title{Service Function Chaining}
+
+\author{Yassine Jebbar}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+SDN and NFV combination offers new propositions and solutions towadrs increased network flexibility and hardware independence. In this report, we take a look at the Service Function Chaining, a new concept that changes the classical architecture of Networking Functions.
+\end{abstract}
+
+\section{Introduction}
+
+In large scale (datacenter) networks, various networking challenges are confronted, not only due to the complex topology that needs to be put in place, but also because of the different networking services (Firewalls, NAT,...) required to ensure a resilient network underlaying the datacenter's servers.
+Further issues arise which are mainly related to vendor lock-ins. In order to overcome these shortcomings, a new form of networking functions was proposed, where they are presented as an ordered set (chain) of basic service functions, increasing therefore the flexibility of the networking functions and their adaptability to the network's changing requirements.
+
+\section{Components and Architecture}
+
+\subsection{Components}
+\textbf{Service Function} A specific function that processes incoming packets following predefined rules. ctions can be involved in the delivery of added-value services. A non-exhaustive list of abstract service functions includes: firewalls, Deep Packet Inspection, NAT...\\
+\\
+\textbf{Service Function Forwarder} A logical component that forwards traffic to the connected
+service functions according to information carried in the SFC
+encapsulation. It does also handle traffic coming back from the
+Service Functions.\\ 
+\\
+\textbf{Metadata} Exchanged context information among the different SFC components.\\
+\\
+\textbf{Service Function Path} a
+constrained specification of where packets assigned to a certain
+service function path must go. Specific details declaration is not mandatory. While in some cases the different Service Functions to be visited are fully specified, we can always maintain a certain level of abstraction in some other cases.\\
+\\
+\textbf{SFC Encapsulation} The SFC encapsulation  provides identification for SFP. It is equally  used by the SFC-aware functions. In addition, the SFC encapsulation carries metadata.\\
+\\
+\textbf{Rendered Service Path}  The different SFs and SFFs visited by a packet in the network.\\
+\\
+\textbf{SFC-Enabled Domain} A network or region of a network where SFC is implemented.\\
+\\
+\textbf{SFC Proxy} Logical component that removes and inserts SFC encapsulation on behalf of an     SFC-unaware service function. 
+
+\subsection{Architecture}
+Before diving into the different architectural principles. and how they relate with each other, we ought to give a clear definition of what a Service Function Chain is. In short, SFC is a concept that enables the creation of composite networking services (Service Functions) that are strictly oredered in order to apply them to packets/frames matching the rules of these Service Functions (Classification). SFC also offers a method of deployment for SFs, in which the order of the service functions can be dynamically changed and independent of its underlying topology using simply the exchanged information (metadata) among the different participating entities of the chain.\\
+On the other hand, an SFC architecture does usually have to satisfy a set of principles in order to ensure using the SFC efficiently.\\
+\\
+\textbf{Topological Independence} 
+The deployment SFs or SFCs does not require any changes in the underlay network forwarding topology.\\
+\\
+\textbf{Plane Separation} The packet handling operations should ne be confused with the the dynamic realization of the Service Forwarding Paths.\\
+\\
+\textbf{Classification} A specific SFP is responsible for any packet matching a specific rule.\\
+\\
+\textbf{Shared Metadata} Metadata/context data can be shared amongst Service Functions and classifiers, between SFs, and between external systems and SFs. Metadata could be used to provide and share the result of classification (that occurs within the SFC-enabled domain, or external to it) along an SFP.\\
+\\ 
+\textbf{Service Definition Independence} The SFC architecture does not depend on the details of SFs themselves.\\
+\\
+\textbf{SFC Independence} The creation, modification, or deletion of an SFC has no impact on other SFCs. The same is true for SFPs.\\
+\\
+\textbf{Heterogneous control/policy Points} The architecture allows SFs
+to use independent mechanisms to
+populate and resolve local policy and  local classification criteria.
+
+\begin{thebibliography}{9}
+\bibitem{nano3}
+  J. Halpern \& C. Pignataro,
+  \emph{Service Function Chaining (SFC) Architecture} RFC7665.
+  
+
+\end{thebibliography}
+\end{document}
