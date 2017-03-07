@@ -1,0 +1,71 @@
+	% LaTeX Template for Project Report, Version 2.0
+% (Abstracted from a Major Project Report at CSED, NIT Calicut but can be
+% modified easily to use for other reports also.)
+%
+% Released under Creative Commons Attribution license (CC-BY)
+% Info: http://creativecommons.org/licenses/by/3.0/
+%
+% Created by: Kartik Singhal
+% BTech CSE Batch of 2009-13
+% NIT Calicut
+% Contact Info: kartiksinghal@gmail.com
+%
+% It is advisable to learn the basics of LaTeX before using this template.
+% A good resource to start with is http://en.wikibooks.org/wiki/LaTeX/
+
+%
+% All template fields are marked with a pair of angular brackets e.g. <title here>
+% except for the ones defining citation names in ref.tex.
+%
+% Empty space after chapter/section/subsection titles can be used to insert text.
+%
+% Just compile this file using pdflatex after making all required changes.
+
+\documentclass[12pt,a4paper]{report}
+\usepackage[justification=centering]{caption}
+\usepackage{glossaries}
+\makeglossaries
+\usepackage{color}
+ 	
+\usepackage{caption}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{array,multirow,makecell}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{mwe}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{url} %for proper url entries
+\usepackage[bookmarks, colorlinks=false, pdfborder={0 0 0}, pdftitle={<pdf title here>}, pdfauthor={<author's name here>}, pdfsubject={<subject here>}, pdfkeywords={<keywords here>}]{hyperref} %for creating links in the pdf version and other additional pdf attributes, no effect on the printed document
+%\usepackage[final]{pdfpages} %for embedding another pdf, remove if not required
+\makeatletter
+\newcommand{\tocfill}{\cleaders\hbox{$\m@th \mkern\@dotsep mu . \mkern\@dotsep mu$}\hfill}
+\makeatother
+\newcommand{\abbrlabel}[1]{\makebox[3cm][l]{\textbf{#1}\ }}
+\newenvironment{abbreviations}{\begin{list}{Liste d'abréviations}{\renewcommand{\makelabel}{\abbrlabel}%
+\setlength{\arrayrulewidth}{1mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}                                              \setlength{\itemsep}{0pt}}}{\end{list}}
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Huge}
+\begin{document}
+\renewcommand\bibname{References} %Renames "Bibliography" to "References" on ref page
+
+%include other pages
+\input{./title.tex}
+\input{./abstract.tex}
+%\input{./acknow.tex}
+%\pagenumbering{roman} %numbering before main content starts
+%\tableofcontents
+%\newpage {\textbf {\Huge List of Abbreviations}}
+\pagenumbering{arabic} %reset numbering to normal for the main content
+
+\input{./introduction.tex} %literature survey included in this
+%\input{./work-done.tex}
+%\input{./conclusion.tex}
+\input{./ref.tex}
+\end{document}
