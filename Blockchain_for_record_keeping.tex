@@ -1,0 +1,51 @@
+\documentclass[a4paper]{article}
+ \usepackage{url}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\title{Blockchain Platforms Overview}
+
+\author{Yassine Jebbar}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We take a look into different blockchain platforms, underlining their similarities and differences in the process. We discuss also how the blockchain technology can be used for records keeping and the existing solutions that are answering such specifications.
+\end{abstract}
+
+\section{Introduction}
+Blockchain can be generally described as a distributed ledger linking numerous blocks of data in a sequenced manner, in order to keep track of the different transactions taking place within the system. The content of the ledger is being agreed on by all the participants in the system, through a distributed consensus algorithm, in which every participant is witnessing the transactions taking place and therefore proposing a block of transactions based on these witnesses. Although the principle is the same, different blockchain platforms choose different approaches (public/private, PoW/PoS,...) to implement this technology. This approach variation is mainly due to the application field (Finance, Health care, Copyrights protection,...) and what a developer may want to achieve with the blockchain tech stack. In the next section, we do an overview of multiple blockchain platforms with a display of their main characteristics and differences.  
+\section{Blockchain Platforms}
+
+\subsection{Bitcoin}
+The first, and most famous blockchain platform.\enspace Launched in 2009 by the anonymous Satoshi Nakamoto, the blockchain technology was directly involved in making Bitcoin the most valued cryptocurrency up to date \cite{value}. The Bitcoin blockchain maintains the transactions' records made by the different participants in the Bitcoin network. It does also rely on the proof of work principle to prove the authenticity of the records. PoW is basically about solving a mathematical puzzle consisting of finding the right nonce. The "nonce" in a bitcoin block is a 32-bit (4-byte) field whose value is set so that the hash of the block will contain a run of leading zeros. the number of zeros is global variable in the Bitcoin network, and it changes after every 2016 blocks \cite{bitwiki}. Bitcoins are put into circulation by mining. Mining is “is the process of adding transaction records to Bitcoin's public ledger of past transactions or blockchain” \cite{mining}.
+\subsection{Ethereum}
+Relying on the same blockchain principles, ether (Ethereum-based cryptocurrency) is emerging as the second most successful digital currency behind bitcoins \cite{value}. Nevertheless, Ethereum was designed to be much more than a payment system.  It is "a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference" \cite{ethereum}.  Ethereum block times are currently at about 14 seconds, compared to Bitcoin’s 10 minutes. Ethereum also currently operates on a proof-of-work basis. Miners are rewarded for processing transactions and executing smart contracts, which create blocks.
+
+\subsection{Bitcoin vs Ethereum}
+
+\section{Blockchain-based record keeping solutions}
+
+
+
+
+\begin{thebibliography}{9}
+\bibitem{value}
+\url{https://www.cryptocompare.com/}
+\bibitem{bitwiki} 
+\url{https://en.bitcoin.it/wiki/Nonce}
+\bibitem{mining}
+\url{https://www.bitcoinmining.com/}
+\bibitem{ethereum}
+\url{https://www.ethereum.org/}
+ 
+
+\end{thebibliography}
+\end{document}
+              
+            
