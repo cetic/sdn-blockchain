@@ -19,20 +19,18 @@ We take a look into different blockchain platforms, underlining their similariti
 \end{abstract}
 
 \section{Introduction}
-Blockchain can be generally described as a distributed ledger linking numerous blocks of data in a sequenced manner, in order to keep track of the different transactions taking place within the system. The content of the ledger is being agreed on by all the participants in the system, through a distributed consensus algorithm, in which every participant is witnessing the transactions taking place and therefore proposing a block of transactions based on these witnesses. Although the principle is the same, different blockchain platforms choose different approaches (public/private, PoW/PoS,...) to implement this technology. This approach variation is mainly due to the application field (Finance, Health care, Copyrights protection,...) and what a developer may want to achieve with the blockchain tech stack. In the next section, we do an overview of multiple blockchain platforms with a display of their main characteristics and differences.  
+Blockchain can be generally described as a distributed ledger linking numerous blocks of data in a sequenced manner, in order to keep track of the different transactions taking place within the system. The content of the ledger is being agreed on by all the participants in the system, through a distributed consensus algorithm, in which every participant is witnessing the transactions taking place and therefore proposing a block of transactions based on these witnesses. Although the principle is the same, different blockchain platforms choose different approaches (public/private, PoW/PoS,...) to implement this technology. This approach variation is mainly due to the application field (Finance, Health care, Copyrights protection,...) and what a developer may want to achieve with the blockchain technology stack. In the next section, we do an overview of multiple blockchain platforms with a display of their main characteristics and differences.  
 \section{Blockchain Platforms}
 
 \subsection{Bitcoin}
 The first, and most famous blockchain platform.\enspace Launched in 2009 by the anonymous Satoshi Nakamoto, the blockchain technology was directly involved in making Bitcoin the most valued cryptocurrency up to date \cite{value}. The Bitcoin blockchain maintains the transactions' records made by the different participants in the Bitcoin network. It does also rely on the proof of work principle to prove the authenticity of the records. PoW is basically about solving a mathematical puzzle consisting of finding the right nonce. The "nonce" in a bitcoin block is a 32-bit (4-byte) field whose value is set so that the hash of the block will contain a run of leading zeros. the number of zeros is global variable in the Bitcoin network, and it changes after every 2016 blocks \cite{bitwiki}. Bitcoins are put into circulation by mining. Mining is “is the process of adding transaction records to Bitcoin's public ledger of past transactions or blockchain” \cite{mining}.
 \subsection{Ethereum}
 Relying on the same blockchain principles, ether (Ethereum-based cryptocurrency) is emerging as the second most successful digital currency behind bitcoins \cite{value}. Nevertheless, Ethereum was designed to be much more than a payment system.  It is "a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference" \cite{ethereum}.  Ethereum block times are currently at about 14 seconds, compared to Bitcoin’s 10 minutes. Ethereum also currently operates on a proof-of-work basis. Miners are rewarded for processing transactions and executing smart contracts, which create blocks.
-
-\subsection{Bitcoin vs Ethereum}
-
 \section{Blockchain-based record keeping solutions}
-
-
-
+As interest in blockchain-based solutions -be it through companies or simple initiatives/projects- is growing dramatically \cite{trends}, many companies who are adopting this technology prefer to build their solutions either on the Bitcoin blockchain or the Ethereum blockchain \cite{canada}, given their well-established status as the two most successful Blockchain platforms currently \cite{value}. Therefore, the evaluation of the record keeping solutions in these section should take into account how these solutions are making profit from Bitcoin/Ethereum Blockchains to ensure the security of their records.
+\subsection{Blockstack}
+Originally a naming system which is built on Bitcoin's Blockchain, Blockcstack provides the ability of tracking key-value pairs in form of (unique) names and their associated data. In the Blockstack Whitepaper \cite{bswp}, there is another confirmation, after a handful of experiences, that the Bitcoin's Blockchain is probably the most secure Blockchain platform available currently. If that is partly due to the big network of participants in Bitcoin, the difficuly of controlling 51\% of the processing power inside the network,
+where all the participants are even, is an important factor as well. On the other hand, Blockcstack developpers chose to take a different approach in terms of storage, given that the Bitcoin Blockchain can only hold data in the order of kilobytes \cite{satoshi}. Therefore, Blockcstack uses blockchain "as a communication channel for announcing state changes, as any changes to the state of name-value pairs can only be announced in new blockchain blocks" \cite{bswp}. As for storing these records of the name-data pairs, Blockstack uses a dedicated data plane for that purpose.
 
 \begin{thebibliography}{9}
 \bibitem{value}
@@ -43,8 +41,14 @@ Relying on the same blockchain principles, ether (Ethereum-based cryptocurrency)
 \url{https://www.bitcoinmining.com/}
 \bibitem{ethereum}
 \url{https://www.ethereum.org/}
- 
-
+\bibitem{trends}
+\url{https://trends.google.com/trends/explore?q=blockchain}
+\bibitem{canada}
+ Blockchain Technology for Recordkeeping,\enspace Help\enspace or\enspace Hype\enspace ?\enspace (Appendix\enspace C:\enspace Blockchain\enspace companies),\newline \url{https://www.researchgate.net/profile/Victoria_Lemieux/publication/309414363_Blockchain_for_Recordkeeping_Help_or_Hype/links/580f539408ae009606bb62f6.pdf}
+\bibitem{bswp}
+Blockstack: A Global Naming and Storage System Secured by Blockchains, \url{https://blockstack.org/blockstack.pdf}
+\bibitem{satoshi}
+Bitcoin: A Peer-to-Peer Electronic Cash System, \url{https://bitcoin.org/bitcoin.pdf} 
 \end{thebibliography}
 \end{document}
               
