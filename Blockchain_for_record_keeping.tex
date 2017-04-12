@@ -31,6 +31,12 @@ As interest in blockchain-based solutions -be it through companies or simple ini
 \subsection{Blockstack}
 Originally a naming system which is built on Bitcoin's Blockchain, Blockcstack provides the ability of tracking key-value pairs in form of (unique) names and their associated data. In the Blockstack Whitepaper \cite{bswp}, there is another confirmation, after a handful of experiences, that the Bitcoin's Blockchain is probably the most secure Blockchain platform available currently. If that is partly due to the big network of participants in Bitcoin, the difficuly of controlling 51\% of the processing power inside the network,
 where all the participants are even, is an important factor as well. On the other hand, Blockcstack developpers chose to take a different approach in terms of storage, given that the Bitcoin Blockchain can only hold data in the order of kilobytes \cite{satoshi}. Therefore, Blockcstack uses blockchain "as a communication channel for announcing state changes, as any changes to the state of name-value pairs can only be announced in new blockchain blocks" \cite{bswp}. As for storing these records of the name-data pairs, Blockstack uses a dedicated data plane for that purpose.
+\subsection{Proof of Existence \cite{poe}}
+An online service for storing and timestamping the existence of a document inside the blockchain. This secure storage is done traditionnaly by keeping a hash of the file in the chain, with a referrence also to the time in which the document was stored. Consequently, such mechanism does not only ensure that the files' content cannot be seen by the Bitcoin's network participants (since PoE is built on Bitcoin's Blockchain), it allows also validating the document's existence "even if this site (proofofexsitence.com) is compromised or down" \cite{poe}. On the technical aspect, it is worth noting that this  solution also uses the OP\_RETRUN field to pass specific information with the transaction. To confirm a document's existence at a certain timestamped time, checking the OP\_RETURN field in blockchain trasancations for the SHA-256 hash of the document, prepended by the PoE marker bytes (0x444f4350524f4f46) should be sufficient. The existence of that transaction in the blockchain proves the existence of the document at the timpestamped time.
+
+
+
+
 
 \begin{thebibliography}{9}
 \bibitem{value}
@@ -49,6 +55,8 @@ where all the participants are even, is an important factor as well. On the othe
 Blockstack: A Global Naming and Storage System Secured by Blockchains, \url{https://blockstack.org/blockstack.pdf}
 \bibitem{satoshi}
 Bitcoin: A Peer-to-Peer Electronic Cash System, \url{https://bitcoin.org/bitcoin.pdf} 
+\bibitem{poe}
+What is proof of existence ? \url{https://proofofexistence.com/about}
 \end{thebibliography}
 \end{document}
               
