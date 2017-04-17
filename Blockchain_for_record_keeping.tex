@@ -43,8 +43,17 @@ A blockchain explorer web application. It allows "to view/query blocks, transact
 \\
 \textbf{\large{Hyperledger Fabric}}\\
 Hyperldger Fabric is simply "a permissioned blockchain platform aimed at business use. It is open-source and based on standards, runs user-defined smart contracts, supports strong security and identity features, and uses a modular architecture with pluggable consensus protocols" \cite{hyper}. It aims to advance blockchain technology by identifying and realizing a cross-industry open standard platform for distributed ledgers, which can transform the way business transactions are conducted globally. Generally, Hyperledger Fabric offers the major advantage of ensuring private transactions/contracts between sinlge nodes in a network of nodes. This is made possible through providing 
-private communication channels between participants. Therefore, any two (or more) participating nodes can share their own distributed ledger, containing their own private transactions, with the rest of the network being unaware of this private ledger. As for the participating peers in the network, the fabric distinguishes between two kinds of peers: A validating peer is a node on the network responsible for running consensus, validating transactions, and maintaining the ledger. On the other hand, a non-validating peer is a node that functions as a proxy to connect clients (issuing transactions) to validating peers. A non-validating peer does not execute transactions but it may verify them \cite{hyper}.
-   
+private communication channels between participants. Therefore, any two (or more) participating nodes can share their own distributed ledger, containing their own private transactions, with the rest of the network being unaware of this private ledger. As for the participating peers in the network, the fabric distinguishes between two kinds of peers: A validating peer is a node on the network responsible for running consensus, validating transactions, and maintaining the ledger. On the other hand, a non-validating peer is a node that functions as a proxy to connect clients (issuing transactions) to validating peers. A non-validating peer does not execute transactions but it may verify them \cite{hyper}. the smart contracts run by Hyperledger Fabric are written in Go language, and they are called chaincode. The transactions' operations are generally divided into 3 categories\\
+\newpage
+\begin{enumerate}
+\item \textbf{Deploy} Allows traditional deployment of smart contracts, as this operation installs the chaincode taken as its input in the peers of the network. After the deployment, the chaincode can be invoked by the different peers.
+\item \textbf{Invoke} Provide the ability to invoke a transaction of a particular chaincode that has been installed earlier through a deploy transaction \cite{hyper}. Depending on the arguments taken by the operation; the chaincode defines the type and executes the
+transaction, may read and write entries in its state accordingly, and indicates whether it succeeded or
+failed.
+\item \textbf{Query} Returns an entry of the state directly from reading the peer’s persistent state \cite{hyper}.
+\end{enumerate}
+\subsection{Namecoin \cite{namecoin}}
+Just like Blockstack, Namecoin is another blockchain based solution for namespaces' storage. Relying on forking the Bitcoin's blockchain (using Bitcoin's blockchain itself for specific purposes and additional functions), Namecoin allows secure storage of key value pairs, ensuring consequently the uniqueness of names inside the blockchain. On the other hand, the values associated to different namespaces aren't necessarily unique, as the same value can exist within different namespaces. For the additionnal functions, Namecoin introduced three new operations: \textbf{NAME\_ NEW} which allows a client to choose a name (if it's not already taken), \textbf{NAME\_ FIRSTUPDATE} takes as input the output of the previous operation, and allows the client to associate initial values to the chosen name and \textbf{NAME\_ UPDATE}  takes as input the output of NAME\_ FIRSTUPDATE and gives the client the possibility to change or insert new values in the name that he has chosen.
 
 
 
@@ -75,6 +84,8 @@ Hyperledger Whitepaper, \url{http://www.the-blockchain.com/docs/Hyperledger\%20W
 \url{https://www.hyperledger.org/community/projects}
 \bibitem{hyper}
 Architecture of the Hyperledger Blockchain Fabric, \url{https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf}
+\bibitem{namecoin}
+An empirical study of Namecoin and lessons for decentralized namespace design, \url{http://www.econinfosec.org/archive/weis2015/papers/WEIS_2015_kalodner.pdf}
 \end{thebibliography}
 \end{document}
               
