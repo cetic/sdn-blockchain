@@ -1,11 +1,11 @@
 \BOOKMARK [1][-]{section.0.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.0.2}{Network Functions' Virtualization}{}% 2
 \BOOKMARK [1][-]{section.0.3}{Software Defined Networks}{}% 3
-\BOOKMARK [1][-]{section.0.4}{Service Function Chains}{}% 4
+\BOOKMARK [1][-]{section.0.4}{Service Function Chains nano3}{}% 4
 \BOOKMARK [2][-]{subsection.0.4.1}{Definition}{section.0.4}% 5
 \BOOKMARK [2][-]{subsection.0.4.2}{Components}{section.0.4}% 6
 \BOOKMARK [2][-]{subsection.0.4.3}{Architecture}{section.0.4}% 7
-\BOOKMARK [1][-]{section.0.5}{SFC Security Concerns Overview}{}% 8
+\BOOKMARK [1][-]{section.0.5}{SFC Security Concerns Overview nano4}{}% 8
 \BOOKMARK [1][-]{section.0.6}{Blockchain Technology}{}% 9
 \BOOKMARK [2][-]{subsection.0.6.1}{Digtal Transactions' Issues satoshi}{section.0.6}% 10
 \BOOKMARK [2][-]{subsection.0.6.2}{How Does Blockchain Overcome Double Spending ? }{section.0.6}% 11
@@ -17,4 +17,9 @@
 \BOOKMARK [1][-]{section.0.8}{Overview Of Blockchain-Based Solutions For Records-Keeping}{}% 17
 \BOOKMARK [2][-]{subsection.0.8.1}{Blockchain Platforms}{section.0.8}% 18
 \BOOKMARK [2][-]{subsection.0.8.2}{Blockchain-based record keeping solutions}{section.0.8}% 19
-\BOOKMARK [0][-]{section*.1}{References}{}% 20
+\BOOKMARK [1][-]{section.0.9}{Blockchain Record-Keeping with Bitcoin's OP\137RETURN}{}% 20
+\BOOKMARK [1][-]{section.0.10}{Introduction}{}% 21
+\BOOKMARK [2][-]{subsection.0.10.1}{Record-Keeping using Bitcoin's Blockchain}{section.0.10}% 22
+\BOOKMARK [2][-]{subsection.0.10.2}{OP\137RETURN field overviewbit}{section.0.10}% 23
+\BOOKMARK [2][-]{subsection.0.10.3}{Constraints}{section.0.10}% 24
+\BOOKMARK [0][-]{section*.1}{References}{}% 25
