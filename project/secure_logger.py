@@ -41,7 +41,7 @@ def generate_checkpoint_signature(previous_hash, current_hash, old_session_id, n
     md_signature = hashlib.md5(previous_hash + old_session_id + str(code) +  current_hash + s + str(count))
     return md_signature.hexdigest()
 
-file=open("tacker_test.txt","r")
+file=open("tacker_logs.txt","r")
 
 lines=file.readlines()
 
