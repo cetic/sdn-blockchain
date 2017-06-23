@@ -7,14 +7,14 @@ modification of their content. This whole process can also be referred to as imm
 
 ## Components
 
-The immutabilization process has been put in place as a set components, with each one of those doing a specific function. Firstly, there is the secure logger script that takes as input the log file 
+The immutabilization process has been put in place as a set components, with each one of those doing a specific function. Firstly, there is the secure\_logger script that takes as input the log file 
 provided by Tacker and generates a secure log file following the mechanisms mentionned in this research work [Immutabilization fo secure logs](https://www.scytl.com/wp-content/uploads/2017/01/Distributed-Immutabilization-of-Secure-Logs_Scytl.pdf). 
-Afterwards, the hash reader component reads the checkpoint hashes in the secure log file and puts them in a specific checkpoint hashes file. The launcher bash script reads those checkpoint hashes from
-the generated file, then sends each checkpoint hash in the OP_RETURN output of a Bitcoin transaction. The launcher does also launch the producer script, which is the first componenet of a 4 RabbitMQ-connected 
-components (producder, consumer, validator, client). The first RabbitMQ component, producer, reads the transaction ids forwarded to the txs id file by the launcher script, and put them in a queue 
+Afterwards, the hash reader component reads the checkpoint hashes in the secure\_logs file and puts them in a specific checkpoint\_hashes file. The launcher bash script reads those checkpoint hashes from
+the generated file, then sends each checkpoint hash in the OP\_RETURN output of a Bitcoin transaction. The launcher does also launch the producer script, which is the first componenet of a 4 RabbitMQ-connected 
+components (producder, consumer, validator, client). The first RabbitMQ component, producer, reads the transaction ids forwarded to the txs\_id file by the launcher script, and put them in a queue 
 connected to the consumer script. The consumer then reads those ids from the queue and gets the hexadecimal format of the transaction, puts it in a queue connected to the validator script. This 
-hexadecimal format put in the queue contains all the information related to the transaction. Therefore, the validator script can read the op return message sent in the transaction , and consequently 
-can extract the checkpoint hash sent within, and finally compare it to the cehckpoint hash in the checkpoint hashes file. If they value is the same, a message informing the client that the checkpoint 
+hexadecimal format put in the queue contains all the information related to the transaction. Therefore, the validator script can read the op\_return message sent in the transaction , and consequently 
+can extract the checkpoint hash sent within, and finally compare it to the checkpoint hash in the checkpoint\_hashes file. If they value is the same, a message informing the client that the checkpoint 
 is validated is put in the queue for the client to read. Otherwise, the validator script informs the client script that a security breach happened between the current checkpoint and the previous one. 
 ## Usage
 
@@ -24,7 +24,7 @@ python script. As a consequence, **bash ./launcher.sh** will send the transactio
 checkpoint hashes that were validated **python client.py**.
 # API Reference
 
-This project uses a python library for sending OP\_RETURN messages in Bitcoin's transactions. A full documentation of the this library can be found here [python-OP \_RETURN]{https://github.com/coinspark/python-OP\_RETURN}
+This project uses a python library for sending OP\_RETURN messages in Bitcoin's transactions. A full documentation of the this library can be found here [python-OP\_RETURN](https://github.com/coinspark/python-OP\_RETURN)
 
 # Contributors
 
