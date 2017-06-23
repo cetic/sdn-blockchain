@@ -1,7 +1,7 @@
 # Synopsis
 
 This project aims to improve Openstack's Tacker auditability. In other words, our goal is to do a periodical check on Tacker's log files, in order to verify that there hasn't been any security breach or
-modification of their content. This whole process can also be referred to as immutabilization of secure log files
+modification of their content. This whole process can also be referred to as immutabilization of secure log files.
 
 # Code Organization
 
@@ -26,7 +26,6 @@ checkpoint hashes that were validated **python client.py**.
 
 This project uses a python library for sending OP\_RETURN messages in Bitcoin's transactions. A full documentation of the this library can be found here [python-OP\_RETURN](https://github.com/coinspark/python-OP\_RETURN)
 
-# Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+
 
