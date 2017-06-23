@@ -1,6 +1,7 @@
 # Synopsis
 
-This project aims to improve Openstack's Tacker auditability. In other words, our goal is to do a periodical check on Tacker's log files, in order to verify that there hasn't been any security breach or modification of their content. This whole process can also be referred to as immutabilization of secure log files
+This project aims to improve Openstack's Tacker auditability. In other words, our goal is to do a periodical check on Tacker's log files, in order to verify that there hasn't been any security breach or
+modification of their content. This whole process can also be referred to as immutabilization of secure log files
 
 # Motivation
 
@@ -19,10 +20,12 @@ connected to the consumer script. The consumer then reads those ids from the que
 hexadecimal format put in the queue contains all the information related to the transaction. Therefore, the validator script can read the op return message sent in the transaction , and consequently 
 can extract the checkpoint hash sent within, and finally compare it to the cehckpoint hash in the checkpoint hashes file. If they value is the same, a message informing the client that the checkpoint 
 is validated is put in the queue for the client to read. Otherwise, the validator script informs the client script that a security breach happened between the current checkpoint and the previous one. 
-## Installation
+## Usage
 
-Provide code examples and explanations of how to get the project.
-
+Given that the secure logging is a subprocess that depends on using the tacker service in Openstack, the secure logger script as well as the hash reading one need to be manually executed. 
+**python secure_logger.py && python hash_reader.py** should do the job. Afterwards, the launcher bash script forwards the transaction containing the checkpoint hash, and executes the producer 
+python script. As a consequence, **bash ./launcher.sh** will send the transaction and triggers all the RabbitMQ connected components. The final step is to execute the client  script to check the 
+checkpoint hashes that were validated **python client.py**.
 # API Reference
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
