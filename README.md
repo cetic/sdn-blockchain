@@ -1,6 +1,6 @@
 ## Synopsis
 
-This project aims to improve Openstack's Tacker auditability. In other words, our goal is to do a periodcal check on Tacker's log files, in order to verify that there hasn't been any security breach or modification of their content. This whole process can also be referred to as immutabilization of secure log files
+This project aims to improve Openstack's Tacker auditability. In other words, our goal is to do a periodical check on Tacker's log files, in order to verify that there hasn't been any security breach or modification of their content. This whole process can also be referred to as immutabilization of secure log files
 ## Code Example
 
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
