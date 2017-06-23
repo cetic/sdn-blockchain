@@ -13,7 +13,7 @@ A short description of the motivation behind the creation and maintenance of the
 The immutabilization process has been put in place as a set components, with each one of those doing a specific function. Firstly, there is the secure logger script that takes as input the log file 
 provided by Tacker and generates a secure log file following the mechanisms mentionned in this research work [Immutabilization fo secure logs](https://www.scytl.com/wp-content/uploads/2017/01/Distributed-Immutabilization-of-Secure-Logs_Scytl.pdf). 
 Afterwards, the hash reader component reads the checkpoint hashes in the secure log file and puts them in a specific checkpoint hashes file. The launcher bash script reads those checkpoint hashes from
-the generated file, then sends each checkpoint hash in the OP_RETURN output of a Bitcoin transaction. The laucher does also launch the producer script, which is the first componenet of a 4 RabbitMQ-connected 
+the generated file, then sends each checkpoint hash in the OP_RETURN output of a Bitcoin transaction. The launcher does also launch the producer script, which is the first componenet of a 4 RabbitMQ-connected 
 components (producder, consumer, validator, client). The first RabbitMQ component, producer, reads the transaction ids forwarded to the txs id file by the launcher script, and put them in a queue 
 connected to the consumer script. The consumer then reads those ids from the queue and gets the hexadecimal format of the transaction, puts it in a queue connected to the validator script. This 
 hexadecimal format put in the queue contains all the information related to the transaction. Therefore, the validator script can read the op return message sent in the transaction , and consequently 
