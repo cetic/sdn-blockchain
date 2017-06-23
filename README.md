@@ -1,10 +1,10 @@
 ## Synopsis
 
 This project aims to improve Openstack's Tacker auditability. In other words, our goal is to do a periodical check on Tacker's log files, in order to verify that there hasn't been any security breach or modification of their content. This whole process can also be referred to as immutabilization of secure log files
-## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+## Code Organization
 
+The immutabilization process has been put in place as a set components, with each one of those doing a specific function. Firstly, there is the secure logger script that takes as input the log file provided by Tacker and generates a secure log file following the mechanisms mentionned in this research work [Immutabilization fo secure logs](https://www.scytl.com/wp-content/uploads/2017/01/Distributed-Immutabilization-of-Secure-Logs_Scytl.pdf) 
 ## Motivation
 
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
