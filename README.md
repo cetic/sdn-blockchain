@@ -1,7 +1,6 @@
-# Synopsis
+## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
-
+This project aims to improve Openstack's Tacker auditability. In other words, our goal is to do a periodcal check on Tacker's log files to verify that there hasn't been any security breach or modification of their content. This whole process can also be referred to as immutabilization of secure log files
 ## Code Example
 
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
