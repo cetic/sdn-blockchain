@@ -1,3 +1,9 @@
+# Motivation
+In software audit reviews, the software log files are often checked multiple times in order to verify that the system/software has been operating consistently as expected. However, those same log files 
+can be targeted by external attackers, as they can alter the log files content to manipulate the system for their own purpose of use. As the blockchain technology has proved to be an extremely efficient 
+solution when it comes to storing records (see report for more details), we decided, in this project, to explore the possibilty of storing Openstack Tacker's records in the blockchain in order to improve
+the platform's auditability
+
 # Synopsis
 
 This project aims to improve Openstack's Tacker auditability. In other words, our goal is to do a periodical check on Tacker's log files, in order to verify that there hasn't been any security breach or
@@ -21,10 +27,10 @@ is validated is put in the queue for the client to read. Otherwise, the validato
 Given that the secure logging is a subprocess that depends on using the tacker service in Openstack, the secure logger script as well as the hash reading one need to be manually executed. 
 **python secure_logger.py && python hash_reader.py** should do the job. Afterwards, the launcher bash script forwards the transaction containing the checkpoint hash, and executes the producer 
 python script. As a consequence, **bash ./launcher.sh** will send the transaction and triggers all the RabbitMQ connected components. The final step is to execute the client  script to check the 
-checkpoint hashes that were validated **python client.py**.
+checkpoint hashes that were validated **python client.py**. 
 # API Reference
 
-This project uses a python library for sending OP\_RETURN messages in Bitcoin's transactions. A full documentation of the this library can be found here [python-OP\_RETURN](https://github.com/coinspark/python-OP\_RETURN)
+This project uses a python library for sending OP\_RETURN messages in Bitcoin's transactions. A full documentation of this library can be found here [python-OP\_RETURN](https://github.com/coinspark/python-OP\_RETURN)
 
 
 
