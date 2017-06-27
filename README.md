@@ -25,9 +25,9 @@ is validated is put in the queue for the client to read. Otherwise, the validato
 ## Usage
 
 Given that the secure logging is a subprocess that depends on using the tacker service in Openstack, the secure logger script as well as the hash reading one need to be manually executed. 
-**python secure_logger.py && python hash_reader.py** should do the job. Afterwards, the launcher bash script forwards the transaction containing the checkpoint hash, and executes the producer 
-python script. As a consequence, **bash ./launcher.sh** will send the transaction and triggers all the RabbitMQ connected components. The final step is to execute the client  script to check the 
-checkpoint hashes that were validated **python client.py**. 
+`python secure_logger.py && python hash_reader.py` should do the job. Afterwards, the launcher bash script forwards the transaction containing the checkpoint hash, and executes the producer 
+python script. As a consequence, `bash ./launcher.sh` will send the transaction and triggers all the RabbitMQ connected components. The final step is to execute the client  script to check the 
+checkpoint hashes that were validated `python client.py`. 
 # API Reference
 
 This project uses a python library for sending OP\_RETURN messages in Bitcoin's transactions. A full documentation of this library can be found here [python-OP\_RETURN](https://github.com/coinspark/python-OP\_RETURN)
