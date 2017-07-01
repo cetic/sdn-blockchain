@@ -1,0 +1,35 @@
+\BOOKMARK [0][-]{Doc-Start}{Abstract}{}% 1
+\BOOKMARK [0][-]{Doc-Start}{Acknowledgement}{}% 2
+\BOOKMARK [1][-]{section.0.1}{Introduction}{Doc-Start}% 3
+\BOOKMARK [1][-]{section.0.2}{Network Functions' Virtualization}{Doc-Start}% 4
+\BOOKMARK [1][-]{section.0.3}{Software Defined Networks}{Doc-Start}% 5
+\BOOKMARK [1][-]{section.0.4}{Service Function Chaining nano3}{Doc-Start}% 6
+\BOOKMARK [2][-]{subsection.0.4.1}{Definition}{section.0.4}% 7
+\BOOKMARK [2][-]{subsection.0.4.2}{Components}{section.0.4}% 8
+\BOOKMARK [2][-]{subsection.0.4.3}{Architecture}{section.0.4}% 9
+\BOOKMARK [1][-]{section.0.5}{SFC Security Concerns Overview nano4}{Doc-Start}% 10
+\BOOKMARK [1][-]{section.0.6}{Blockchain Technology}{Doc-Start}% 11
+\BOOKMARK [2][-]{subsection.0.6.1}{Digtal Transactions' Issues satoshi}{section.0.6}% 12
+\BOOKMARK [2][-]{subsection.0.6.2}{How Does Blockchain Overcome Double Spending ? }{section.0.6}% 13
+\BOOKMARK [1][-]{section.0.7}{Problem Domain}{Doc-Start}% 14
+\BOOKMARK [2][-]{subsection.0.7.1}{Authentication}{section.0.7}% 15
+\BOOKMARK [2][-]{subsection.0.7.2}{Authorization}{section.0.7}% 16
+\BOOKMARK [2][-]{subsection.0.7.3}{Accountability}{section.0.7}% 17
+\BOOKMARK [2][-]{subsection.0.7.4}{Conclusion}{section.0.7}% 18
+\BOOKMARK [1][-]{section.0.8}{Blockchain-Based Solutions For Records-Keeping}{Doc-Start}% 19
+\BOOKMARK [2][-]{subsection.0.8.1}{Blockchain Platforms}{section.0.8}% 20
+\BOOKMARK [2][-]{subsection.0.8.2}{Blockchain-based record keeping solutions}{section.0.8}% 21
+\BOOKMARK [1][-]{section.0.9}{Blockchain Record-Keeping with OP\137RETURN}{Doc-Start}% 22
+\BOOKMARK [2][-]{subsection.0.9.1}{Record-Keeping using Bitcoin's Blockchain}{section.0.9}% 23
+\BOOKMARK [2][-]{subsection.0.9.2}{OP\137RETURN field overviewbit}{section.0.9}% 24
+\BOOKMARK [2][-]{subsection.0.9.3}{Constraints}{section.0.9}% 25
+\BOOKMARK [1][-]{section.0.10}{Openstack Tacker}{Doc-Start}% 26
+\BOOKMARK [2][-]{subsection.0.10.1}{NFV MANO Framework }{section.0.10}% 27
+\BOOKMARK [2][-]{subsection.0.10.2}{Does Tacker implement NFV MANO ?}{section.0.10}% 28
+\BOOKMARK [1][-]{section.0.11}{Analysis \046 Conception}{Doc-Start}% 29
+\BOOKMARK [2][-]{subsection.0.11.1}{Problem Space Considerations}{section.0.11}% 30
+\BOOKMARK [2][-]{subsection.0.11.2}{Logs Immutabilization}{section.0.11}% 31
+\BOOKMARK [2][-]{subsection.0.11.3}{Immutable Logs Mechanisms immute}{section.0.11}% 32
+\BOOKMARK [2][-]{subsection.0.11.4}{Components}{section.0.11}% 33
+\BOOKMARK [2][-]{subsection.0.11.5}{Implementation}{section.0.11}% 34
+\BOOKMARK [0][-]{section*.18}{References}{}% 35

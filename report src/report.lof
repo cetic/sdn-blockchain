@@ -1,0 +1,18 @@
+\select@language {english}
+\contentsline {figure}{\numberline {1}{\ignorespaces Network Functions Virtualization paradigm\relax }}{3}{figure.caption.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Software Defined Networks architecture \relax }}{5}{figure.caption.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces 2 different SFPs in a service function chain of 4 VNFs \relax }}{8}{figure.caption.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces SFC control plane and data plane interaction \relax }}{10}{figure.caption.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces The forming of a Merkle Tree in the Blockchain\relax }}{15}{figure.caption.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Construction of the Blockchain \relax }}{16}{figure.caption.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Transactions' chaining in the Blockchain\relax }}{17}{figure.caption.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces The transaction's information extracted from Bitcoin Core\relax }}{29}{figure.caption.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Checking the transaction's different fields on blocktrail.com\relax }}{29}{figure.caption.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces OP\_RETURN message\relax }}{30}{figure.caption.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Translation of the hexadecimal OP\_RETURN message\relax }}{30}{figure.caption.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces the NFV MANO framework architecture\relax }}{33}{figure.caption.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Openstack's Tacker architecture\relax }}{34}{figure.caption.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Logs' immutabilization and validation processes' components diagram\relax }}{37}{figure.caption.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces The publisher subcomponents\relax }}{38}{figure.caption.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces The validator subcomponents\relax }}{39}{figure.caption.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces The sequence diagram of the immutabilization process\relax }}{40}{figure.caption.17}
