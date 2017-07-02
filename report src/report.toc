@@ -36,5 +36,5 @@
 \contentsline {subsection}{\numberline {12.1}Technologies}{41}{subsection.0.12.1}
 \contentsline {subsection}{\numberline {12.2}Components Implementation}{42}{subsection.0.12.2}
 \contentsline {subsection}{\numberline {12.3}Design Decisions}{45}{subsection.0.12.3}
-\contentsline {section}{\numberline {13}Conclusion}{45}{section.0.13}
-\contentsline {chapter}{References}{46}{section*.23}
+\contentsline {section}{\numberline {13}Conclusion}{46}{section.0.13}
+\contentsline {chapter}{References}{47}{section*.23}
