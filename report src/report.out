@@ -31,5 +31,9 @@
 \BOOKMARK [2][-]{subsection.0.11.2}{Logs Immutabilization}{section.0.11}% 31
 \BOOKMARK [2][-]{subsection.0.11.3}{Immutable Logs Mechanisms immute}{section.0.11}% 32
 \BOOKMARK [2][-]{subsection.0.11.4}{Components}{section.0.11}% 33
-\BOOKMARK [2][-]{subsection.0.11.5}{Implementation}{section.0.11}% 34
-\BOOKMARK [0][-]{section*.18}{References}{}% 35
+\BOOKMARK [1][-]{section.0.12}{Implementation}{Doc-Start}% 34
+\BOOKMARK [2][-]{subsection.0.12.1}{Technologies}{section.0.12}% 35
+\BOOKMARK [2][-]{subsection.0.12.2}{Components Implementation}{section.0.12}% 36
+\BOOKMARK [2][-]{subsection.0.12.3}{Design Decisions}{section.0.12}% 37
+\BOOKMARK [1][-]{section.0.13}{Conclusion}{Doc-Start}% 38
+\BOOKMARK [0][-]{section*.23}{References}{}% 39

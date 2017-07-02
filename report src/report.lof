@@ -16,3 +16,8 @@
 \contentsline {figure}{\numberline {15}{\ignorespaces The publisher subcomponents\relax }}{38}{figure.caption.15}
 \contentsline {figure}{\numberline {16}{\ignorespaces The validator subcomponents\relax }}{39}{figure.caption.16}
 \contentsline {figure}{\numberline {17}{\ignorespaces The sequence diagram of the immutabilization process\relax }}{40}{figure.caption.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces The line hashe concatenated at the end of each logs entry\relax }}{43}{figure.caption.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces The checkpoint hashes read from the secure logs and stored in a new file\relax }}{43}{figure.caption.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Bitcoin transactions sent once an hour at 12:58, 13:58 and 14:58\relax }}{44}{figure.caption.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces The stored transaction ids\relax }}{44}{figure.caption.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces The client python script reading the validation message from the queue\relax }}{44}{figure.caption.22}

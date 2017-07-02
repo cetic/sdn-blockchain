@@ -1,26 +1,40 @@
 \select@language {english}
-\contentsline {section}{\numberline {0.1}Introduction}{1}{section.0.1}
-\contentsline {section}{\numberline {0.2}Network Functions' Virtualization}{3}{section.0.2}
-\contentsline {section}{\numberline {0.3}Software Defined Networks}{3}{section.0.3}
-\contentsline {section}{\numberline {0.4}Service Function Chains \cite {nano3}}{4}{section.0.4}
-\contentsline {subsection}{\numberline {0.4.1}Definition}{5}{subsection.0.4.1}
-\contentsline {subsection}{\numberline {0.4.2}Components}{5}{subsection.0.4.2}
-\contentsline {subsection}{\numberline {0.4.3}Architecture}{6}{subsection.0.4.3}
-\contentsline {section}{\numberline {0.5}SFC Security Concerns Overview \cite {nano4}}{8}{section.0.5}
-\contentsline {section}{\numberline {0.6}Blockchain Technology}{10}{section.0.6}
-\contentsline {subsection}{\numberline {0.6.1}Digtal Transactions' Issues \cite {satoshi}}{10}{subsection.0.6.1}
-\contentsline {subsection}{\numberline {0.6.2}How Does Blockchain Overcome Double Spending ? }{10}{subsection.0.6.2}
-\contentsline {section}{\numberline {0.7}Problem Domain}{15}{section.0.7}
-\contentsline {subsection}{\numberline {0.7.1}Authentication}{15}{subsection.0.7.1}
-\contentsline {subsection}{\numberline {0.7.2}Authorization}{16}{subsection.0.7.2}
-\contentsline {subsection}{\numberline {0.7.3}Accountability}{16}{subsection.0.7.3}
-\contentsline {subsection}{\numberline {0.7.4}Conclusion}{16}{subsection.0.7.4}
-\contentsline {section}{\numberline {0.8}Overview Of Blockchain-Based Solutions For Records-Keeping}{18}{section.0.8}
-\contentsline {subsection}{\numberline {0.8.1}Blockchain Platforms}{18}{subsection.0.8.1}
-\contentsline {subsection}{\numberline {0.8.2}Blockchain-based record keeping solutions}{19}{subsection.0.8.2}
-\contentsline {section}{\numberline {0.9}Blockchain Record-Keeping with Bitcoin's \\OP\_RETURN}{23}{section.0.9}
-\contentsline {section}{\numberline {0.10}Introduction}{23}{section.0.10}
-\contentsline {subsection}{\numberline {0.10.1}Record-Keeping using Bitcoin's Blockchain}{23}{subsection.0.10.1}
-\contentsline {subsection}{\numberline {0.10.2}OP\_RETURN field overview\cite {bit}}{24}{subsection.0.10.2}
-\contentsline {subsection}{\numberline {0.10.3}Constraints}{26}{subsection.0.10.3}
-\contentsline {chapter}{References}{28}{section*.2}
+\contentsline {chapter}{Abstract}{i}{Doc-Start}
+\contentsline {chapter}{Acknowledgement}{ii}{Doc-Start}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.0.1}
+\contentsline {section}{\numberline {2}Network Functions' Virtualization}{3}{section.0.2}
+\contentsline {section}{\numberline {3}Software Defined Networks}{4}{section.0.3}
+\contentsline {section}{\numberline {4}Service Function Chaining \cite {nano3}}{6}{section.0.4}
+\contentsline {subsection}{\numberline {4.1}Definition}{7}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {4.2}Components}{7}{subsection.0.4.2}
+\contentsline {subsection}{\numberline {4.3}Architecture}{8}{subsection.0.4.3}
+\contentsline {section}{\numberline {5}SFC Security Concerns Overview \cite {nano4}}{11}{section.0.5}
+\contentsline {section}{\numberline {6}Blockchain Technology}{14}{section.0.6}
+\contentsline {subsection}{\numberline {6.1}Digtal Transactions' Issues \cite {satoshi}}{14}{subsection.0.6.1}
+\contentsline {subsection}{\numberline {6.2}How Does Blockchain Overcome Double Spending ? }{14}{subsection.0.6.2}
+\contentsline {section}{\numberline {7}Problem Domain}{19}{section.0.7}
+\contentsline {subsection}{\numberline {7.1}Authentication}{19}{subsection.0.7.1}
+\contentsline {subsection}{\numberline {7.2}Authorization}{20}{subsection.0.7.2}
+\contentsline {subsection}{\numberline {7.3}Accountability}{20}{subsection.0.7.3}
+\contentsline {subsection}{\numberline {7.4}Conclusion}{20}{subsection.0.7.4}
+\contentsline {section}{\numberline {8}Blockchain-Based Solutions For Records-Keeping}{22}{section.0.8}
+\contentsline {subsection}{\numberline {8.1}Blockchain Platforms}{22}{subsection.0.8.1}
+\contentsline {subsection}{\numberline {8.2}Blockchain-based record keeping solutions}{23}{subsection.0.8.2}
+\contentsline {section}{\numberline {9}Blockchain Record-Keeping with OP\_RETURN}{27}{section.0.9}
+\contentsline {subsection}{\numberline {9.1}Record-Keeping using Bitcoin's Blockchain}{27}{subsection.0.9.1}
+\contentsline {subsection}{\numberline {9.2}OP\_RETURN field overview\cite {bit}}{28}{subsection.0.9.2}
+\contentsline {subsection}{\numberline {9.3}Constraints}{30}{subsection.0.9.3}
+\contentsline {section}{\numberline {10}Openstack Tacker}{32}{section.0.10}
+\contentsline {subsection}{\numberline {10.1}NFV MANO Framework }{32}{subsection.0.10.1}
+\contentsline {subsection}{\numberline {10.2}Does Tacker implement NFV MANO ?}{34}{subsection.0.10.2}
+\contentsline {section}{\numberline {11}Analysis \& Conception}{35}{section.0.11}
+\contentsline {subsection}{\numberline {11.1}Problem Space Considerations}{35}{subsection.0.11.1}
+\contentsline {subsection}{\numberline {11.2}Logs Immutabilization}{35}{subsection.0.11.2}
+\contentsline {subsection}{\numberline {11.3}Immutable Logs Mechanisms \cite {immute}}{36}{subsection.0.11.3}
+\contentsline {subsection}{\numberline {11.4}Components}{37}{subsection.0.11.4}
+\contentsline {section}{\numberline {12}Implementation}{41}{section.0.12}
+\contentsline {subsection}{\numberline {12.1}Technologies}{41}{subsection.0.12.1}
+\contentsline {subsection}{\numberline {12.2}Components Implementation}{42}{subsection.0.12.2}
+\contentsline {subsection}{\numberline {12.3}Design Decisions}{45}{subsection.0.12.3}
+\contentsline {section}{\numberline {13}Conclusion}{45}{section.0.13}
+\contentsline {chapter}{References}{46}{section*.23}

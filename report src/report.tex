@@ -25,6 +25,7 @@
 \usepackage[justification=centering]{caption}
 \usepackage{glossaries}
 \makeglossaries
+\usepackage{amsmath, amsthm, amssymb}
 \usepackage{color}	 	
 \usepackage{caption}
 \usepackage[T1]{fontenc}
@@ -35,6 +36,15 @@
 \usepackage{lipsum}
 \usepackage{graphicx}
 \usepackage{array}
+\usepackage{tocloft}
+\setlength{\cftbeforetoctitleskip}{-4.25cm}
+\renewcommand{\cftsecfont}{\normalfont\bfseries}% titles in bold
+\renewcommand{\cftsecpagefont}{\normalfont\bfseries}% page numbers in bold
+\renewcommand{\cftdotsep}{1}
+\renewcommand{\cftsecleader}{\bfseries\cftdotfill{\cftsecdotsep}}% dot leaders in bold
+\setlength{\cftbeforesecskip}{2pt}
+\setlength{\cftbeforesubsecskip}{0.5pt}
+
 \usepackage{calc}
 \usepackage{mwe}
 \usepackage[english]{babel}
@@ -42,6 +52,15 @@
 \usepackage{url} %for proper url entries
 \usepackage[bookmarks, colorlinks=false, pdfborder={0 0 0}, pdftitle={<pdf title here>}, pdfauthor={<author's name here>}, pdfsubject={<subject here>}, pdfkeywords={<keywords here>}]{hyperref} %for creating links in the pdf version and other additional pdf attributes, no effect on the printed document
 %\usepackage[final]{pdfpages} %for embedding another pdf, remove if not required
+\makeatletter
+\renewcommand{\thesection}{%
+  \ifnum\c@chapter<1 \@arabic\c@section
+  \else \thechapter.\@arabic\c@section
+  \fi
+}
+\makeatother
+
+
 \makeatletter
 \newcommand{\tocfill}{\cleaders\hbox{$\m@th \mkern\@dotsep mu . \mkern\@dotsep mu$}\hfill}
 \makeatother
@@ -57,15 +76,18 @@
 
 %include other pages
 \input{./title.tex}
-\tableofcontents
-\pagenumbering{roman}
 \input{./abstract.tex}
-%\input{./acknow.tex}
+\input{./acknow.tex}
+\tableofcontents
+\thispagestyle{empty}
+\listoffigures
+\thispagestyle{empty}
  %numbering before main content starts
 
 %\newpage {\textbf {\Huge List of Abbreviations}}
-\pagenumbering{arabic} %reset numbering to normal for the main content
-
+ %reset numbering to normal for the main content
+\newpage
+\pagenumbering{arabic}
 \input{./introduction.tex} %literature survey included in this
 %\input{./work-done.tex}
 %\input{./conclusion.tex}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.12)  1 JUL 2017 03:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.12)  2 JUL 2017 03:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1017,7 +1017,7 @@ LaTeX Info: Redefining \nameref on input line 74.
 \openout5 = `report.out'.
 
  (./title.tex
-<cetic.png, id=143, 256.96pt x 124.465pt>
+<cetic.png, id=159, 256.96pt x 124.465pt>
 File: cetic.png Graphic file (type png)
  <use cetic.png>
 Package pdftex.def Info: cetic.png used on input line 29.
@@ -1107,13 +1107,13 @@ fier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \newpage
-             [1] [2] <nfv.png, id=258, 626.34pt x 375.4025pt>
+             [1] [2] <nfv.png, id=290, 626.34pt x 375.4025pt>
 File: nfv.png Graphic file (type png)
  <use nfv.png>
 Package pdftex.def Info: nfv.png used on input line 10.
 (pdftex.def)             Requested size: 369.53738pt x 221.48555pt.
 
-[3 <./nfv.png>] <sdn.png, id=263, 465.74pt x 301.125pt>
+[3 <./nfv.png>] <sdn.png, id=295, 465.74pt x 301.125pt>
 File: sdn.png Graphic file (type png)
  <use sdn.png>
 Package pdftex.def Info: sdn.png used on input line 19.
@@ -1139,7 +1139,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--53
 
  []
 
-[7] <sfp.png, id=281, 693.59125pt x 287.0725pt>
+[7] <sfp.png, id=313, 693.59125pt x 287.0725pt>
 File: sfp.png Graphic file (type png)
  <use sfp.png>
 Package pdftex.def Info: sfp.png used on input line 55.
@@ -1174,7 +1174,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--74
 
  []
 
-[8 <./sfp.png>] <sfpc.png, id=287, 564.1075pt x 377.41pt>
+[8 <./sfp.png>] <sfpc.png, id=319, 564.1075pt x 377.41pt>
 File: sfpc.png Graphic file (type png)
  <use sfpc.png>
 Package pdftex.def Info: sfpc.png used on input line 99.
@@ -1289,19 +1289,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--131
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 134.
 
-<merkle.png, id=315, 667.49374pt x 367.3725pt>
+<merkle.png, id=348, 667.49374pt x 367.3725pt>
 File: merkle.png Graphic file (type png)
  <use merkle.png>
 Package pdftex.def Info: merkle.png used on input line 144.
 (pdftex.def)             Requested size: 360.44125pt x 198.37817pt.
 
-<merkle2.png, id=319, 622.325pt x 250.9375pt>
+<merkle2.png, id=352, 622.325pt x 250.9375pt>
 File: merkle2.png Graphic file (type png)
  <use merkle2.png>
 Package pdftex.def Info: merkle2.png used on input line 158.
 (pdftex.def)             Requested size: 360.94875pt x 145.54384pt.
 
-<merkle3.png, id=320, 627.34375pt x 449.68pt>
+<merkle3.png, id=353, 627.34375pt x 449.68pt>
 File: merkle3.png Graphic file (type png)
  <use merkle3.png>
 Package pdftex.def Info: merkle3.png used on input line 166.
@@ -1431,24 +1431,24 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 240.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [27] [28]
-<op1.png, id=446, 621.32124pt x 277.035pt>
+<op1.png, id=479, 621.32124pt x 277.035pt>
 File: op1.png Graphic file (type png)
  <use op1.png>
 Package pdftex.def Info: op1.png used on input line 244.
 (pdftex.def)             Requested size: 323.08891pt x 144.05902pt.
 
-<op2.png, id=447, 1160.335pt x 874.26625pt>
+<op2.png, id=480, 1160.335pt x 874.26625pt>
 File: op2.png Graphic file (type png)
  <use op2.png>
 Package pdftex.def Info: op2.png used on input line 249.
 (pdftex.def)             Requested size: 290.08304pt x 218.56602pt.
- [29 <./op1.png> <./op2.png>] <op3.png, id=455, 303.1325pt x 96.36pt>
+ [29 <./op1.png> <./op2.png>] <op3.png, id=487, 303.1325pt x 96.36pt>
 File: op3.png Graphic file (type png)
  <use op3.png>
 Package pdftex.def Info: op3.png used on input line 257.
 (pdftex.def)             Requested size: 157.6298pt x 50.10747pt.
 
-<op4.png, id=456, 623.32875pt x 521.95pt>
+<op4.png, id=488, 623.32875pt x 521.95pt>
 File: op4.png Graphic file (type png)
  <use op4.png>
 Package pdftex.def Info: op4.png used on input line 263.
@@ -1458,13 +1458,13 @@ Overfull \hbox (19.87688pt too wide) in paragraph at lines 276--277
 []\T1/lmr/m/n/12 VIM man-ages NFVI re-sources
  []
 
-[32] <mano.png, id=476, 666.49pt x 580.1675pt>
+[32] <mano.png, id=508, 666.49pt x 580.1675pt>
 File: mano.png Graphic file (type png)
  <use mano.png>
 Package pdftex.def Info: mano.png used on input line 282.
 (pdftex.def)             Requested size: 233.275pt x 203.06166pt.
 
-<tacker.png, id=478, 972.63374pt x 584.1825pt>
+<tacker.png, id=510, 972.63374pt x 584.1825pt>
 File: tacker.png Graphic file (type png)
  <use tacker.png>
 Package pdftex.def Info: tacker.png used on input line 289.
@@ -1474,7 +1474,7 @@ Package pdftex.def Info: tacker.png used on input line 289.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 299.
 
-[36] <comps.png, id=507, 1642.135pt x 753.81625pt>
+[36] <comps.png, id=539, 1642.135pt x 753.81625pt>
 File: comps.png Graphic file (type png)
  <use comps.png>
 Package pdftex.def Info: comps.png used on input line 321.
@@ -1484,12 +1484,12 @@ Overfull \hbox (20.53275pt too wide) in paragraph at lines 321--322
  [][] 
  []
 
-<comps1.png, id=508, 659.46375pt x 567.11874pt>
+<comps1.png, id=540, 659.46375pt x 567.11874pt>
 File: comps1.png Graphic file (type png)
  <use comps1.png>
 Package pdftex.def Info: comps1.png used on input line 327.
 (pdftex.def)             Requested size: 250.59882pt x 215.50735pt.
- [37 <./comps.png>] [38 <./comps1.png>] <comps2.png, id=518, 794.97pt x 485.815
+ [37 <./comps.png>] [38 <./comps1.png>] <comps2.png, id=550, 794.97pt x 485.815
 pt>
 File: comps2.png Graphic file (type png)
 
@@ -1497,7 +1497,7 @@ File: comps2.png Graphic file (type png)
 Package pdftex.def Info: comps2.png used on input line 334.
 (pdftex.def)             Requested size: 294.1343pt x 179.74873pt.
  [39 <./comps2.png>]
-<seq.png, id=523, 1376.14125pt x 825.0825pt>
+<seq.png, id=555, 1376.14125pt x 825.0825pt>
 File: seq.png Graphic file (type png)
  <use seq.png>
 Package pdftex.def Info: seq.png used on input line 342.
@@ -1508,31 +1508,83 @@ Overfull \hbox (50.3742pt too wide) in paragraph at lines 342--343
  []
 
 [40 <./seq.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 349--352
+Underfull \hbox (badness 10000) in paragraph at lines 351--354
 
  []
 
 
-Overfull \hbox (14.44954pt too wide) in paragraph at lines 353--354
+Overfull \hbox (14.44954pt too wide) in paragraph at lines 355--356
 \T1/lmr/bx/n/12 python send-OP_RETURN.py <re-ceiv-ing ad-dress> <amount>
  []
 
 
-Overfull \hbox (16.96353pt too wide) in paragraph at lines 354--355
+Overfull \hbox (16.96353pt too wide) in paragraph at lines 356--357
 \T1/lmr/bx/n/12 python store-OP_RETURN.py <re-ceiv-ing ad-dress> <amount>
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--360
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 360--367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--360
+Underfull \hbox (badness 10000) in paragraph at lines 360--367
 
  []
 
-) (./ref.tex [41]
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--367
+
+ []
+
+<secure.png, id=567, 1106.1325pt x 397.485pt>
+File: secure.png Graphic file (type png)
+ <use secure.png>
+Package pdftex.def Info: secure.png used on input line 372.
+(pdftex.def)             Requested size: 464.57248pt x 166.94255pt.
+
+Overfull \hbox (74.57248pt too wide) in paragraph at lines 372--373
+ [][] 
+ []
+
+<secure1.png, id=568, 997.7275pt x 270.00874pt>
+File: secure1.png Graphic file (type png)
+ <use secure1.png>
+Package pdftex.def Info: secure1.png used on input line 379.
+(pdftex.def)             Requested size: 419.0427pt x 113.4029pt.
+
+Overfull \hbox (29.0427pt too wide) in paragraph at lines 379--380
+ [][] 
+ []
+
+<out1.png, id=569, 1823.81375pt x 147.55125pt>
+File: out1.png Graphic file (type png)
+ <use out1.png>
+Package pdftex.def Info: out1.png used on input line 386.
+(pdftex.def)             Requested size: 765.99657pt x 61.97108pt.
+
+Overfull \hbox (375.99657pt too wide) in paragraph at lines 386--387
+ [][] 
+ []
+
+<txs.png, id=570, 674.52pt x 68.255pt>
+File: txs.png Graphic file (type png)
+ <use txs.png>
+Package pdftex.def Info: txs.png used on input line 393.
+(pdftex.def)             Requested size: 283.29646pt x 28.66689pt.
+
+<out.png, id=571, 632.3625pt x 60.225pt>
+File: out.png Graphic file (type png)
+ <use out.png>
+Package pdftex.def Info: out.png used on input line 400.
+(pdftex.def)             Requested size: 265.59044pt x 25.29431pt.
+ [42] [43 <./secure.png> <./secure1.png>] [44 <./out1.png> <./txs.png> <./out.p
+ng>]) (./ref.tex [45]
 Overfull \hbox (67.44627pt too wide) in paragraph at lines 22--24
 []\T1/lmr/m/n/12 GuardtimesecuresoveramillionEstonianhealthcarerecordsonthebloc
 kchain,
@@ -1573,7 +1625,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
  org / en /
  []
 
-[42
+[46
 
 
 ]
@@ -1641,7 +1693,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 rypto . org / blog /
  []
 
-[43]
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 []\T1/lmr/m/n/12 NeutronAPIforServiceChaining,[]$\T1/lmtt/m/n/12 https : / / wi
 ki . openstack . org /
@@ -1672,8 +1724,8 @@ uide-[]to-[]nfv-[]management-[] \
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
-[]\T1/lmr/m/n/12 Distributedimmutabilizationofsecurelogs, []$\T1/lmtt/m/n/12 ht
-tps :
+[]\T1/lmr/m/n/12 Distributedimmutabilizationofsecurelogs,[]$\T1/lmtt/m/n/12 htt
+ps :
  []
 
 
@@ -1712,8 +1764,26 @@ bitcoin . fr /
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
-[]\T1/lmr/m/n/12 BitcoinCoreOfficialPage, []$\T1/lmtt/m/n/12 https : / / bitcoi
-n . org / en /
+[]\T1/lmr/m/n/12 BitcoinCoreOfficialPage,[]$\T1/lmtt/m/n/12 https : / / bitcoin
+ . org / en /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+[]\T1/lmr/m/n/12 BitcoinScalabilityProblemExplained,[]$\T1/lmtt/m/n/12 https : 
+/ / cointelegraph .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+[]\T1/lmr/m/n/12 Bitcoinsthehardway:UsingtherawBitcoinprotocol,[]$\T1/lmtt/m/n/
+12 http : / /
+ []
+
+
+Overfull \hbox (0.97807pt too wide) in paragraph at lines 98--99
+\T1/lmtt/m/n/12 www . righto . com / 2014 / 02 / bitcoins-[]hard-[]way-[]using-
+[]raw-[]bitcoin .
  []
 
 )
@@ -1723,23 +1793,23 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
-[44]
+[48]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
  (./report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 143476AA26965B7592F9C6CC8F886CFC;2566.
+(rerunfilecheck)             Checksum: A0BBD23FF3CAB00D2819EA1A229CADFF;2837.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13348 strings out of 494883
- 193913 string characters out of 6178693
- 443414 words of memory out of 5000000
- 16176 multiletter control sequences out of 15000+600000
+ 13401 strings out of 494883
+ 194574 string characters out of 6178693
+ 444414 words of memory out of 5000000
+ 16203 multiletter control sequences out of 15000+600000
  66335 words of font info for 49 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  46i,8n,77p,3217b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1754,10 +1824,10 @@ ts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb>
 public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmtt12.pfb>
-Output written on report.pdf (49 pages, 1253645 bytes).
+Output written on report.pdf (53 pages, 1452891 bytes).
 PDF statistics:
- 687 PDF objects out of 1000 (max. 8388607)
- 599 compressed objects within 6 object streams
- 144 named destinations out of 1000 (max. 500000)
- 371 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 659 compressed objects within 7 object streams
+ 160 named destinations out of 1000 (max. 500000)
+ 428 words of extra memory for PDF output out of 10000 (max. 10000000)
 
