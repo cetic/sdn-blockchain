@@ -20,10 +20,10 @@ transactions = {
 for line in lines:
   line = str(line)
   if line.startswith('TxID'):
-   transaction_id = line[6:]
-   transactions["TxID"] = transaction_id
-   message = json.dumps(transactions)
-   channel.basic_publish(exchange='',
+    transaction_id = line[6:]
+    transactions["TxID"] = transaction_id
+    message = json.dumps(transactions)
+    channel.basic_publish(exchange='',
                          routing_key='transactions',
                          body=message)
-connection.close()
+

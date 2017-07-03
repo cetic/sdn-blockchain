@@ -15,13 +15,12 @@ op_return_hashes = {
                        "properties": {
                           "hash": { "type": "string" },
                                      }
-                }
+                   }
 
 
 
 def callback(ch, method, properties, body):
     transactions = json.loads(body)
-    #print("transaction id {}".format(transactions['TxID']))
     transaction_id = transactions['TxID']
     bashCommand = "bitcoin-cli getrawtransaction " + transaction_id
     raw_transaction = os.popen(bashCommand).read()
@@ -29,8 +28,8 @@ def callback(ch, method, properties, body):
     op_return_hashes["hash"] = raw_transaction
     message = json.dumps(op_return_hashes)
     channel.basic_publish(exchange='',
-                           routing_key='op_return_hashes',
-                           body=message)
+                          routing_key='op_return_hashes',
+                          body=message)
 
 
 channel.basic_consume(callback,
@@ -39,3 +38,4 @@ channel.basic_consume(callback,
 print("Waiting for tasks")
 
 channel.start_consuming()
+
